@@ -1,0 +1,37 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "main": "webserver.js",
+  "license": "MIT",
+  "dependencies": {
+    "@ideadesignmedia/arguments.js": "^1.0.0",
+    "@ideadesignmedia/config.js": "^1.0.1",
+    "@ideadesignmedia/fe-db": "^1.0.3",
+    "express": "^4.17.3",
+    "extract-zip": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build": "node build production=true",
+    "dev": "node dev"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/plugin-transform-runtime": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/runtime": "^7.18.9",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.20.0",
+    "eslint-plugin-jest": "^26.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.72.0",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
