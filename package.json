@@ -7,8 +7,6 @@
     "@ideadesignmedia/arguments.js": "^1.0.0",
     "@ideadesignmedia/config.js": "^1.0.1",
     "@ideadesignmedia/fe-db": "^1.0.3",
-    "express": "^4.17.3",
-    "extract-zip": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
